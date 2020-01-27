@@ -20,8 +20,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
@@ -109,9 +107,5 @@
 
     </dependencies>
          
-    <properties>
-         <maven.compiler.target>1.8</maven.compiler.target>
-         <maven.compiler.source>1.8</maven.compiler.source>
-    </properties>
 
 </project>
